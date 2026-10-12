@@ -1,0 +1,30 @@
+Allow from all
+Options -Indexes
+
+# Fichiers cachés (.htaccess, .git...) jamais servis
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Journaux du WAF aurox : ils vivent à la racine du projet, hors de public/,
+# mais on les interdit aussi ici au cas où quelqu'un les déplacerait.
+<Files "blacklist__.php">
+    Order allow,deny
+    Deny from all
+</Files>
+<Files "banlog__.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
+
+# Fichier absent : la page 404 de l'application
+ErrorDocument 404 /404.php
+
+# Les IP bannies par le WAF aurox (OsdAurox\Ban) sont écrites entre ces deux marqueurs.
+# === AUROX_BAN_START ===
+# === AUROX_BAN_END ===

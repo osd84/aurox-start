@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'osd84/aurox-start',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'osd84/aurox' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '7c934ac0f820f40b016f3392712001ebc50e84a2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../osd84/aurox',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'osd84/aurox-start' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'osd84/phpmailer' => array(
+            'pretty_version' => '6.10',
+            'version' => '6.10.0.0',
+            'reference' => '0ff2d3c8ead628df2493537d9f91db962aa47718',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../osd84/phpmailer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

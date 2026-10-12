@@ -1,0 +1,20 @@
+# Configuration locale : ne jamais versionner (mots de passe, sel...)
+/conf.php
+
+# Fichiers écrits par aurox à l'exécution
+/logs/*.log
+/blacklist__.php
+/banlog__.php
+/cache_system_h€re/
+/rate_limit/
+
+# Certificat MySQL propre à chaque serveur
+/conf_mysql_ssl_cert/*.pem
+
+# Éditeurs / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+/.junie/

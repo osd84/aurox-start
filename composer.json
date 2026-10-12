@@ -1,0 +1,27 @@
+{
+    "name": "osd84/aurox-start",
+    "description": "Mini application de départ pour apprendre le framework Aurox : authentification, blog, administration.",
+    "type": "project",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "osd84.fr",
+            "email": "info@osd84.fr"
+        }
+    ],
+
+    "require": {
+        "php": ">=8.1",
+        "osd84/aurox": "^1.0",
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "ext-gd": "*"
+    }
+}
