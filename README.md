@@ -49,7 +49,6 @@ MySQL / MariaDB :
 ```bash
 mysql -u root -p -e "CREATE DATABASE aurox_start CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 mysql -u root -p aurox_start < migrations/2026-10-12-schema-mysql.sql
-mysql -u root -p aurox_start < migrations/2026-10-13-otp-password-reset-mysql.sql
 ```
 
 PostgreSQL (dans `conf.php` : `'driver' => 'pgsql'`, `'port' => '5432'`) :
@@ -57,7 +56,6 @@ PostgreSQL (dans `conf.php` : `'driver' => 'pgsql'`, `'port' => '5432'`) :
 ```bash
 createdb aurox_start
 psql -d aurox_start -f migrations/2026-10-12-schema-pgsql.sql
-psql -d aurox_start -f migrations/2026-10-13-otp-password-reset-pgsql.sql
 ```
 
 Les migrations se jouent dans l'ordre de leur date.
