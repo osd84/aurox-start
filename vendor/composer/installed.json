@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "osd84/aurox",
-            "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osd84/aurox-dist.git",
-                "reference": "7c934ac0f820f40b016f3392712001ebc50e84a2"
+                "reference": "318cd402e749c8ad8c9e8c62759acad7d4bdea43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/osd84/aurox-dist/zipball/7c934ac0f820f40b016f3392712001ebc50e84a2",
-                "reference": "7c934ac0f820f40b016f3392712001ebc50e84a2",
+                "url": "https://api.github.com/repos/osd84/aurox-dist/zipball/318cd402e749c8ad8c9e8c62759acad7d4bdea43",
+                "reference": "318cd402e749c8ad8c9e8c62759acad7d4bdea43",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             "require-dev": {
                 "osd84/brutaltestrunner": "^3.0"
             },
-            "time": "2026-10-07T08:52:29+00:00",
+            "time": "2026-10-23T07:11:02+00:00",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -47,7 +47,7 @@
             "description": "Lib for build web app",
             "support": {
                 "issues": "https://github.com/osd84/aurox-dist/issues",
-                "source": "https://github.com/osd84/aurox-dist/tree/1.0.0"
+                "source": "https://github.com/osd84/aurox-dist/tree/1.0.1"
             },
             "install-path": "../osd84/aurox"
         },
@@ -135,6 +135,6 @@
             "install-path": "../osd84/phpmailer"
         }
     ],
-    "dev": false,
+    "dev": true,
     "dev-package-names": []
 }
