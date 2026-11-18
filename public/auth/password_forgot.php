@@ -124,13 +124,7 @@ require_once APP_ROOT . '/templates/layout/header.php';
 <main class="ax-narrow">
     <h1>Mot de passe oublié</h1>
 
-    <?php if ($debugLink): ?>
-        <div class="ax-flash ax-flash-warning">
-            <strong>Debug</strong>
-            Le lien envoyé par mail : <a href="<?= Sec::hNoHtml($debugLink) ?>">réinitialiser le mot de passe</a>.
-            Affiché ici parce que <code>debug</code> vaut <code>true</code>.
-        </div>
-    <?php endif; ?>
+
 
     <p>Indiquez l'email de votre compte : vous recevrez un lien pour choisir un nouveau mot de passe.</p>
 
