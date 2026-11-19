@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "osd84/aurox",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/osd84/aurox-dist.git",
-                "reference": "318cd402e749c8ad8c9e8c62759acad7d4bdea43"
+                "reference": "d254f570aed9450741478f2323b536436835926b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/osd84/aurox-dist/zipball/318cd402e749c8ad8c9e8c62759acad7d4bdea43",
-                "reference": "318cd402e749c8ad8c9e8c62759acad7d4bdea43",
+                "url": "https://api.github.com/repos/osd84/aurox-dist/zipball/d254f570aed9450741478f2323b536436835926b",
+                "reference": "d254f570aed9450741478f2323b536436835926b",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             "description": "Lib for build web app",
             "support": {
                 "issues": "https://github.com/osd84/aurox-dist/issues",
-                "source": "https://github.com/osd84/aurox-dist/tree/1.0.1"
+                "source": "https://github.com/osd84/aurox-dist/tree/1.0.2"
             },
-            "time": "2026-10-23T07:11:02+00:00"
+            "time": "2026-11-06T11:07:15+00:00"
         },
         {
             "name": "osd84/phpmailer",
@@ -138,7 +138,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
@@ -147,6 +147,6 @@
         "ext-mbstring": "*",
         "ext-gd": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
